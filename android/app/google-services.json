@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "834692722839",
+    "project_id": "analytics-2abce",
+    "storage_bucket": "analytics-2abce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834692722839:android:0a7e747546c3e1184ef9d2",
+        "android_client_info": {
+          "package_name": "com.analytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834692722839-15s67omui31on7na7tmchda92l77ac88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdrLSVmMZK-HN51g18LYlmFhBdl1uPhB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834692722839-15s67omui31on7na7tmchda92l77ac88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
