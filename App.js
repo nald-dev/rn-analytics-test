@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
 
 import { NavigationContainer } from '@react-navigation/native';
-import Analytics from '@react-native-firebase/analytics'
+import analytics from '@react-native-firebase/analytics'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 const Stack = createNativeStackNavigator()
@@ -83,9 +83,7 @@ const Home = ({ navigation }) => {
 
 const Screen = ({ name, backgroundColor }) => {
   useEffect(() => {
-    Analytics().logEvent('opened_screen', {
-      name
-    })
+    analytics().logEvent(`Nova_OpenedScreen_${name}`)
   },[])
 
   return (

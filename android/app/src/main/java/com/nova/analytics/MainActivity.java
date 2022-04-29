@@ -1,4 +1,4 @@
-package com.analytics;
+package com.nova.analytics;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

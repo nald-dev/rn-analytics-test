@@ -1,4 +1,4 @@
-package com.analytics.newarchitecture;
+package com.nova.analytics.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.analytics.BuildConfig;
-import com.analytics.newarchitecture.components.MainComponentsRegistry;
-import com.analytics.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.nova.analytics.BuildConfig;
+import com.nova.analytics.newarchitecture.components.MainComponentsRegistry;
+import com.nova.analytics.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
